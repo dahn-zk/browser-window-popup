@@ -1,0 +1,7 @@
+{
+  "name": "browser_window_popup",
+  "description": "window popup",
+  "path": "$<TARGET_FILE:${target_name}>",
+  "type": "stdio",
+  "allowed_extensions": ["browser-window-popup@example.org"]
+}

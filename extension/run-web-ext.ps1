@@ -1,0 +1,1 @@
+web-ext.ps1 run --verbose --firefox="$env:LOCALAPPDATA\Microsoft\WindowsApps\firefox.exe"

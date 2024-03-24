@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Window Popup",
+  "description": "See README.md in the code repository.",
+  "version": "1.0",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "browser-window-popup@example.org",
+      "strict_min_version": "50.0"
+    }
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "options_ui": {
+    "page": "options.html",
+    "browser_style": true
+  },
+  "browser_action": {
+    "default_title": "Window Popup options"
+  },
+  "permissions": [
+    "nativeMessaging",
+    "storage"
+  ]
+}
